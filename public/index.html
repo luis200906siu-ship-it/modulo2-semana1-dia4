@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Comunitario</title>
+</head>
+<body>
+  <main>
+    <h1>Formulario comunitario de propuestas</h1>
+
+    <p>
+      Esta página permite consultar propuestas guardadas en JSON y enviar una nueva propuesta al servidor.
+    </p>
+
+    <section>
+      <h2>Enviar nueva propuesta</h2>
+
+      <label for="titulo">Título de la propuesta:</label>
+      <br>
+      <input id="titulo" type="text" value="Avisos claros para la comunidad">
+      <br><br>
+
+      <label for="mensaje">Mensaje de la propuesta:</label>
+      <br>
+      <textarea id="mensaje" rows="5" cols="60">Publicar avisos semanales con fuente, fecha y lenguaje claro para prevenir rumores.</textarea>
+      <br><br>
+
+      <label for="categoria">Categoría:</label>
+      <br>
+      <select id="categoria">
+        <option value="prevencion-desinformacion">Prevención de desinformación</option>
+        <option value="cultura-de-paz">Cultura de paz</option>
+        <option value="participacion-ciudadana">Participación ciudadana</option>
+        <option value="convivencia-digital">Convivencia digital</option>
+      </select>
+      <br><br>
+
+      <label for="audiencia">Audiencia principal:</label>
+      <br>
+      <input id="audiencia" type="text" value="comunidad general">
+      <br><br>
+
+      <label for="tono">Tono del mensaje:</label>
+      <br>
+      <select id="tono">
+        <option value="informativo">Informativo</option>
+        <option value="pedagogico">Pedagógico</option>
+        <option value="preventivo">Preventivo</option>
+        <option value="convocante">Convocante</option>
+        <option value="respetuoso">Respetuoso</option>
+      </select>
+      <br><br>
+
+      <label for="llamadoAccion">Llamado a la acción:</label>
+      <br>
+      <textarea id="llamadoAccion" rows="3" cols="60">Consulta la información oficial antes de compartir mensajes en grupos comunitarios.</textarea>
+      <br><br>
+
+      <label for="autor">Autor o grupo:</label>
+      <br>
+      <input id="autor" type="text" value="Grupo juvenil comunitario">
+      <br><br>
+
+      <button id="btnEnviar">Enviar propuesta</button>
+
+      <p id="respuestaEnvio">Aquí aparecerá la respuesta del servidor.</p>
+    </section>
+
+    <section>
+      <h2>Propuestas registradas</h2>
+
+      <button id="btnCargar">Cargar propuestas</button>
+
+      <div id="contenedorPropuestas">
+        Aquí aparecerán las propuestas guardadas.
+      </div>
+    </section>
+
+    <section>
+      <h2>Prueba de validaciones</h2>
+      <p>
+        Para probar las validaciones, borra el título o el mensaje e intenta enviar la propuesta.
+        El servidor debe responder con un mensaje claro.
+      </p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

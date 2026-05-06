@@ -1,0 +1,70 @@
+Bitácora de comando – Módulo 2 Semana 1 Día 4
+
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
+
+Comando nuevo del día:
+npm run api
+
+Escribe los comandos que usaste durante la práctica.
+
+1. Comando usado para clonar el repositorio:
+
+Respuesta:
+
+2. Comando usado para entrar a la carpeta del proyecto:
+
+Respuesta:
+
+3. Comando usado para crear tu rama personal:
+
+Respuesta:
+
+4. Comando usado para verificar la rama:
+
+Respuesta:
+
+5. Comando usado para instalar dependencias:
+
+Respuesta:
+
+6. Comando usado para levantar la API:
+
+Respuesta:
+
+7. Dirección abierta en el navegador:
+
+Respuesta:
+
+8. Ruta usada para consultar propuestas:
+
+Respuesta:
+
+9. Ruta usada para enviar propuestas:
+
+Respuesta:
+
+10. Prueba realizada con campo vacío:
+
+Respuesta:
+
+11. Mensaje de validación observado:
+
+Respuesta:
+
+12. Comando usado para revisar cambios en Git:
+
+Respuesta:
+
+13. Comando usado para agregar cambios:
+
+Respuesta:
+
+14. Comando usado para crear commit:
+
+Respuesta:
+
+15. Comando usado para publicar la rama:
+
+Respuesta:

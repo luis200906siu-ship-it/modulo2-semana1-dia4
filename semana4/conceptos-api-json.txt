@@ -1,0 +1,55 @@
+Conceptos básicos de API, JSON y validación – Módulo 2 Semana 1 Día 4
+
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
+
+Responde con tus propias palabras.
+
+1. ¿Qué es una API?
+
+Respuesta:
+
+2. ¿Por qué se dice que una API permite comunicación entre cliente y servidor?
+
+Respuesta:
+
+3. ¿Qué hace la ruta GET /api/propuestas?
+
+Respuesta:
+
+4. ¿Qué hace la ruta POST /api/propuestas?
+
+Respuesta:
+
+5. ¿Qué hace express.json() en esta práctica?
+
+Respuesta:
+
+6. ¿Qué hace JSON.stringify?
+
+Respuesta:
+
+7. ¿Qué hace JSON.parse?
+
+Respuesta:
+
+8. ¿Qué hace fs.readFileSync?
+
+Respuesta:
+
+9. ¿Qué hace fs.writeFileSync?
+
+Respuesta:
+
+10. ¿Por qué este ejercicio todavía no es una base de datos?
+
+Respuesta:
+
+11. ¿Qué significa validar campos antes de guardar una propuesta?
+
+Respuesta:
+
+12. ¿Por qué una API comunitaria debe responder con mensajes claros cuando falta información?
+
+Respuesta:

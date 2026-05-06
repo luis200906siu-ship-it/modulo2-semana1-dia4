@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "titulo": "Canal de información verificada",
+      "mensaje": "Crear un canal comunitario para publicar avisos con fuente, fecha y responsable.",
+      "categoria": "prevencion-desinformacion",
+      "audiencia": "comunidad general",
+      "tono": "informativo",
+      "llamadoAccion": "Consultar únicamente los avisos publicados por canales verificados.",
+      "autor": "Equipo comunitario",
+      "estado": "recibida",
+      "revisionEditorial": "pendiente",
+      "fecha": "2026-04-26T00:00:00.000Z"
+    }
+  ]
+  

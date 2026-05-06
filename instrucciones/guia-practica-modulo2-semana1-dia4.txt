@@ -1,0 +1,124 @@
+Guía práctica – Módulo 2 Semana 1 Día 4
+
+Actividad:
+API básica: agregar propuestas comunitarias a un archivo JSON desde un formulario con validaciones mínimas.
+
+Repositorio:
+Repositorio dispuesto por el docente.
+
+Importante:
+No debes trabajar directamente en main.
+
+Cada estudiante debe crear una rama personal con el formato:
+
+nombres_apellidos
+
+Ejemplo:
+maria_gomez
+juan_perez
+laura_torres_garcia
+
+Evidencia:
+La evidencia de esta actividad es únicamente el push de tu rama personal a GitHub.
+
+No debes entregar nada en Moodle.
+No debes enviar capturas.
+No debes subir archivos adicionales.
+No debes publicar enlaces por otro medio.
+
+Comando nuevo del día:
+npm run api
+
+Pasos obligatorios:
+
+1. Clonar el repositorio
+
+git clone URL_DEL_REPOSITORIO
+
+2. Entrar a la carpeta del proyecto
+
+cd NOMBRE_DEL_REPOSITORIO
+
+3. Crear la rama personal
+
+git checkout -b nombres_apellidos
+
+4. Verificar la rama actual
+
+git branch
+
+La rama marcada con * debe ser tu rama personal, no main.
+
+5. Instalar dependencias
+
+npm install
+
+6. Levantar la API
+
+npm run api
+
+7. Abrir en el navegador
+
+http://localhost:3000
+
+8. Cargar propuestas existentes
+
+9. Escribir una nueva propuesta en el formulario
+
+10. Completar título, mensaje, categoría, audiencia, tono, llamado a la acción y autor
+
+11. Enviar la propuesta
+
+12. Verificar que aparece en pantalla
+
+13. Abrir el archivo
+
+data/propuestas.json
+
+14. Verificar que se agregó un nuevo objeto al array
+
+15. Abrir directamente la ruta
+
+http://localhost:3000/api/propuestas
+
+16. Probar validación dejando vacío el título
+
+17. Probar validación dejando vacío el mensaje
+
+18. Revisar los mensajes de error del servidor
+
+19. Modificar el texto inicial del formulario en public/index.html
+
+20. Modificar el mensaje de confirmación en server.js
+
+21. Detener el servidor con Ctrl + C
+
+22. Levantar nuevamente la API
+
+npm run api
+
+23. Probar nuevamente el formulario
+
+24. Completar los archivos:
+
+semana4/conceptos-api-json.txt
+semana4/bitacora-comando-dia4.txt
+semana4/matriz-criterios-editoriales.txt
+semana4/protocolo-comunicacion-responsable.txt
+semana4/reflexion-api-participacion.txt
+
+25. Revisar cambios
+
+git status
+
+26. Agregar cambios
+
+git add .
+
+27. Crear commit
+
+git commit -m "API formulario JSON modulo 2 semana 1 dia 4"
+
+28. Publicar la rama
+
+git push -u origin nombres_apellidos

@@ -1,0 +1,16 @@
+{
+    "name": "programadores-para-la-paz-modulo2-semana1-dia4",
+    "version": "1.0.0",
+    "description": "API básica con Express para agregar propuestas comunitarias a un archivo JSON con validaciones mínimas.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "api": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "author": "Programa Capacitación en Democracia y Tecnología",
+    "license": "MIT"
+  }
+  
