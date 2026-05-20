@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Programadores para la Paz – Módulo 2 Semana 1 Día 4
 
 ## Actividad
@@ -101,3 +102,6 @@ git status
 git add .
 git commit -m "API formulario JSON modulo 2 semana 1 dia 4"
 git push -u origin nombres_apellidos
+=======
+# modulo2-semana1-dia4
+>>>>>>> 4475aedca537e1a0afda494ffe840651758e04a6
